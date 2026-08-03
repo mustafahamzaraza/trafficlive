@@ -84,15 +84,15 @@ android {
     ndkVersion "28.0.13004108"
 
     buildToolsVersion rootProject.ext.buildToolsVersion
-    compileSdk 35
+    compileSdk 36
 
     namespace 'com.koncptai.tpamsuserapp'
     defaultConfig {
         applicationId 'com.koncptai.tpamsuserapp'
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion 35
-        versionCode 50
-        versionName "3.0.0"
+        minSdkVersion 24
+        targetSdkVersion 36
+        versionCode 52
+        versionName "3.1.1"
     }
     signingConfigs {
         debug {
